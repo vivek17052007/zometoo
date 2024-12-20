@@ -1,0 +1,88 @@
+#app-section {
+    background-color: #fffbf7;
+  }
+  #app-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 450px;
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #mobile-imge {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+  }
+  #mobile-imge img {
+    height: 100%;
+  }
+  #app-title h2 {
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  #app-title p {
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 32px;
+  }
+  #radio-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    /* padding: 10px; */
+    display: flex;
+  }
+  input[type="radio"] {
+    accent-color: #ef4f5f;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+  }
+  #email-input-container {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  #email-input-container #email-input {
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid rgb(207, 207, 207);
+    outline: none;
+  }
+  #email-input-container button {
+    width: 175px;
+    padding: 7px;
+    background-color: #ef4f5f;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #appinfo p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #9c9c9c;
+    margin-bottom: 15px;
+  }
+  #app-imge {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 5px;
+    /* height: 40px; */
+  }
+  #app-imge img {
+    width: 137px;
+    /* margin-left: 10px; */
+    padding: 0px 20px 0px 0px;
+  }
